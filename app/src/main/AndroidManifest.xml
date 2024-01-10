@@ -16,10 +16,14 @@
             android:name=".BikeActivity"
             android:exported="false"
             android:label="@string/title_activity_bike"
-            android:theme="@style/Theme.ShareMyBike" />
+            android:theme="@style/Theme.ShareMyBike"
+            android:screenOrientation="portrait"
+            />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:screenOrientation="portrait"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

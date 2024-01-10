@@ -8,10 +8,8 @@
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@color/primary_dark</item>
         <item name="colorAccent">@color/accent</item>
-        <item name="android:textColorPrimary">@color/white</item>
-        <item name="android:windowActionBarOverlay">true</item>
-        <item name="windowActionBarOverlay">true</item>
 
+        <item name="android:colorForeground">@color/primary</item>
     </style>
 
     <style name="Theme.ShareMyBike" parent="Base.Theme.ShareMyBike" />
@@ -23,6 +21,12 @@
         <item name="android:textStyle">bold</item>
         <item name="android:paddingLeft">16dp</item>
         <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <style name="toolbar" parent="ThemeOverlay.MaterialComponents.Toolbar.Surface">
+        <item name="android:background">@color/primary</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="navigationIconTint">@color/white</item>
     </style>
 
 
